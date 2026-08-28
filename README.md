@@ -24,3 +24,8 @@ python -m pip install pyaesa
 For package documentation, API reference, and tutorials, see [pyaesa.readthedocs.io](https://pyaesa.readthedocs.io/). 
 
 The source code is available on GitHub at [AESAtoolkit/pyaesa](https://github.com/AESAtoolkit/pyaesa).
+
+# Case study definition
+
+The case study selected in the context of the AESA consensus is the electricity production in the Netherlands. 
+

@@ -7,11 +7,15 @@ It is made of two main folders:
 2. the ``scripts`` folder gathers (i) the main notebook generating results for a given functional unit, 
 and (ii) another notebook to automatically run (i) for all functional units of interest in the context of the consensus. Running (ii) generates all the results of the case study.
 
+# Case study definition
+
+The case study selected in the context of the AESA consensus is the **electricity production in the Netherlands**. The case study focuses on L1 (country), L2 (sector), and L4 (product) allocation levels. For each allocation level, several functional units are considered, which highilights the importance of consistent system boundaries (production- vs. consumption-based accounting) and demand perimeter (final vs. total demand).
+
 # Packages installation
 
 Before running the notebooks, make sure to install the necessary packages: 
 - ``pyaesa`` (see more details below)
-- see 'Imports' section in the notebooks.
+- see all necessary packages in the 'Imports' section of the two notebooks.
 
 # `pyaesa` installation
 
@@ -24,8 +28,4 @@ python -m pip install pyaesa
 For package documentation, API reference, and tutorials, see [pyaesa.readthedocs.io](https://pyaesa.readthedocs.io/). 
 
 The source code is available on GitHub at [AESAtoolkit/pyaesa](https://github.com/AESAtoolkit/pyaesa).
-
-# Case study definition
-
-The case study selected in the context of the AESA consensus is the electricity production in the Netherlands. 
 
